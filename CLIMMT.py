@@ -150,7 +150,7 @@ def math_training(player):
         minutes = 0
         if seconds > 60:
             minutes = int(seconds / 60)
-        print(f"Time: {minutes} minutes, {seconds:.2f} seconds")
+        print(f"Time: {minutes} minutes, {seconds-minutes*60:.2f} seconds")
         
         
 def math_problem(mathmodes, allow_negatives, add_sub_range, mult_div_range):
